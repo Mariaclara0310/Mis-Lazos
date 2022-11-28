@@ -1,49 +1,39 @@
 <!DOCTYPE html>
 <html lang="es">
- <%- include('./partials/head.ejs') %>
+<%- include('./partials/head.ejs') %>
 
-   
 
-   <body>
-      <header>
-        <div class="Inicio">
-          </nav>
-          <h1>MIS LAZOS DE AMOR</h1>
-          <hr>
-          <nav>
-            <a href="#">Home</a>
-				    <a href="#palabra">Catálogo</a>
 
-        </div>
-      </header>
-      
-  
-    
-      <div class="cardContainer">
-      <style>
-        .cardContainer {
-          display: flex;
-          flex-wrap: wrap;
-          
-        }
-      </style>
-    
-      <div>
-        
+  <body>
+    <header>
+      <div class="Inicio">
+        </nav>
+        <h1>MIS LAZOS DE AMOR</h1>
+        <hr>
+        <nav>
+          <a href="/">Home</a>
+          <a href="/users/catalogo">Catálogo</a>
+
       </div>
-     
+    </header>
 
-       <% productos.forEach(productos=> { %>
-        <%- include("producto.ejs", {productos: productos}) %>
-   
+
+    <h1 class="h1Catalogo">Catálogo de Productos</h1>
+
+    <div class="cardContainer">
+
+
+      <% productos.forEach(productos=> { %>
+        <section class="card">
+          <%- include("producto.ejs", {productos: productos}) %>
+        </section>
         <% }) %>
-      <br>
 
 
 
 
-      
-      <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+          <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="\img\lazos\GanchoPez.jpeg" class="d-block w-100" alt="..." style="max-height: 800px !important; width: 35% !important">
@@ -67,11 +57,11 @@
 
     </div> -->
 
-    
-    
-    
-    
-   </body>
+
+
+
+
+  </body>
 
 
 </html>

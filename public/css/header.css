@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'roboto', sans-serif;
+  margin: 0;
+}
+
+
+header{
+  background-color: rgb(245, 168, 238);
+  padding: 15px 80px;
+  width: 100%;
+}
+header .Inicio{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+header nav{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+header a{
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-size: 1.2em;
+}
+
+header a:hover{
+  color:blueviolet;
+    
+}
+
+header h1 {
+  color:white;
+    
+}
+header h1:hover{
+  color:blueviolet;
+    
+}
+
+main {
+background-image: url('/img/fondo-degradado-ab.webp');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+}
