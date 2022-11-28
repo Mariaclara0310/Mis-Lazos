@@ -11,7 +11,7 @@
 
 .h1Catalogo {
     text-align: center;
-    color:rgb(0, 0, 0);
+    color:rgb(227, 74, 241);
     margin: 20px;
 }
 
@@ -30,9 +30,14 @@
 
 .card-title {
     margin-bottom: 20px;
+    color: rgb(227, 74, 241);
 }
 
 .card-precio {
     margin-bottom: 20px;
-    color: rgb(58, 58, 58);
+    color: rgb(227, 74, 241);
+}
+.card-detalle {
+    margin-bottom: 20px;
+    color: rgb(208, 24, 224);
 }
