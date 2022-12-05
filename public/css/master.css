@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+}
+
 body{
     background-image: url(/img/fondo-degradado.webp);
     
@@ -22,6 +26,7 @@ img{
     color: #cc96e9;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    padding: 10px 10px 10px 10px;
 }
 
 .nube1{
@@ -86,27 +91,22 @@ img{
         left: 500px;
     }
      .cajaBoton{
-         cursor: pointer;
-         border: none;
+        
         padding: 16px 32px;
         font-size: 24px;
         font-weight: bold;
-        position: relative;
-        text-decoration: none;
-    }
-
-    .cajaBoton a {
-        text-decoration: none;
-        color: #fff;
-    }
-    
-    .cajaBoton:hover {
-        
-        border-radius: 12px;
-        background: #f1bfe1;
+        background-image: url("/img/lazo_boton.png");
+        background-repeat: no-repeat;
+        height: 35vh;
+              
     } 
+}
 
    
-}
+   
+
+
+
+
    
 
