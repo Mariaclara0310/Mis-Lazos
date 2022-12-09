@@ -1,7 +1,7 @@
 let path = require('path');
 let express = require('express');
 let indexRouter = require('./src/routes/index');
-let usersRouter = require('./src/routes/users');
+let productosRouter = require('./src/routes/productos');
 
 let app = express();
 
@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
+app.use('/productos', productosRouter);
 
 
 

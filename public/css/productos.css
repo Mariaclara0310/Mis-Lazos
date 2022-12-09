@@ -31,15 +31,25 @@
 
 .card-title {
     margin-bottom: 20px;
+    text-align: center;
     color: rgb(227, 74, 241);
 }
 
 .card-precio {
     margin-bottom: 20px;
+    text-align: center;
     color: rgb(227, 74, 241);
+    font-weight: bold;
 }
 .card-detalle {
     margin-bottom: 20px;
     color: rgb(208, 24, 224);
+    text-align: left;
+    font-weight: bold;
     height: 60px;
 }
+
+  
+   
+ 
+  

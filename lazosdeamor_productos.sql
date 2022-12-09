@@ -39,7 +39,7 @@ CREATE TABLE `productos` (
 
 LOCK TABLES `productos` WRITE;
 /*!40000 ALTER TABLE `productos` DISABLE KEYS */;
-INSERT INTO `productos` VALUES (1,'Tomatera Lila','TomateraLila.jpg','$ 45.000',''),(2,'Ganchos Estrellass','GanchosEstrellas.jpg','$ 35.000','');
+INSERT INTO `productos` VALUES (1,'Tomatera Lila','TomateraLila.jpg','$ 45.000','Elaborada con cinta de textura seda, con delicados petalos de color lila y con perlas de color blanco.'),(2,'Ganchos Estrellas','GanchosEstrellas.jpg','$ 35.000','Elaborado con una perfecta combinación entre un aplique de estrella plástica y cinta falla decorativa.'),(3,'Cintillo','Cintillo.jpeg','$ 38.000','Elaborada con finas rosas decoradas con perlas y cinta alicrada.'),(4,'Diadema Princesa','DiademaPrincesa.jpg','$46.000','Elaborada con perlas blacas y cinta satinada.'),(5,'Gancho Boutique','GanchoAguamarina.jpg','$37.000','Elaborada con cinta falla de color Aguamarina.'),(6,'Tomatera Multicolor','TomateraMulticolor.jpeg','$42.000','Elaborada con petalos Multicolor y apliques botones decorativos.'),(7,'Lazo Princesa','LazoPrincesa.jpg','$47.000','Elaborado con cinta estampada con motivo de princesa y cinta de color sólido.'),(8,'Ganchos Unicornio','GanchosUnicornio.jpg', '$39.000','Elaborados con cintas de colores surtidos, accesorios en perla y  con aplique de unicornio.'),(9,'Gancho Navideño','GanchoNavideño.jpg', '$29.000','Elaborado con cintas de color navideño variados y con un aplique deacuerdo al modelo del motivo.'),(10,'Gancho Indu','GanchilloIndu.jpg','$34.000','Elaborado con cintas de color rojo y beige estilo falla, y con Aplique de Muñeca.');
 /*!40000 ALTER TABLE `productos` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

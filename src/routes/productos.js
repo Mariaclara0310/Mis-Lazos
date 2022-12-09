@@ -2,6 +2,6 @@ const productosController = require('../../controllers/productosController');
 
 const router = require('express').Router();
 
-router.get('/Catalogo', productosController.listado)
+router.get('/catalogo', productosController.listado)
 
 module.exports = router;
