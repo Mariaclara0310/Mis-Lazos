@@ -3,7 +3,6 @@
 <%- include('./partials/head.ejs') %>
 
 
-
   <body>
    
     <%- include('./partials/header.ejs') %>
@@ -14,9 +13,9 @@
     <div class="cardContainer">
 
 
-      <% productos.forEach(productos=> { %>
+      <% productos.forEach(producto=> { %>
         <section class="card">
-          <%- include("producto.ejs", {productos: productos}) %>
+          <%- include("./partials/producto.ejs", {producto: producto}) %>
         </section>
         <% }) %>
 

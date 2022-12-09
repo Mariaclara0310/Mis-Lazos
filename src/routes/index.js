@@ -1,8 +1,6 @@
 const router = require('express').Router();
-
+const indexController = require('../../controllers/indexController');
 /* GET home page. */
-router.get('/', function(req, res, next) {
- res.render('index', { title: 'Bienvenid@ a tu tienda Online Invitado' });
-});
+router.get('/',indexController );
 
 module.exports = router;
